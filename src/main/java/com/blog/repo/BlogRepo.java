@@ -1,5 +1,9 @@
 package com.blog.repo;
 
-public class BlogRepo {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.blog.entity.Blog;
+
+public interface BlogRepo extends JpaRepository<Blog, Integer>{
 
 }
