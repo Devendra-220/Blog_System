@@ -1,13 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
 
+<meta charset="UTF-8">
+
+<title>Reports</title>
+
+<link rel="stylesheet"
+	href="/style.css">
+
+</head>
+
+<body>
 
 	<!-- Header -->
 
@@ -17,13 +24,13 @@
 
 		<div class="navbar">
 
-			<a href="#">Manage Posts</a>
-			
-			<a href="#">Manage Users</a>
+			<a href="/admin/dashboard">Manage Posts</a>
 
-			<a href="#">Post Moderation</a>
+			<a href="/admin/users">Manage Users</a>
 
-			<a href="#">Reports</a>
+			<a href="/admin/post-mod">Post Moderation</a>
+
+			<a href="/admin/reports">Reports</a>
 
 			<a href="/logout">Logout</a>
 
@@ -47,10 +54,6 @@
 
 				<option>Most Active Users</option>
 
-				<option>Most Popular Posts</option>
-
-				<option>Posts by Category</option>
-
 				<option>Pending Posts</option>
 
 			</select>
@@ -73,6 +76,6 @@
 		© 2026 Blog Platform
 
 	</div>
-	
+
 </body>
 </html>
