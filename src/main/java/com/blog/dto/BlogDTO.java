@@ -7,11 +7,9 @@ import lombok.Setter;
 @Setter
 public class BlogDTO {
 
-	private String  title;
-	
+	private String title;
+
 	private String content;
-	
+
 	private String tags;
-	
-	
 }

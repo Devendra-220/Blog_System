@@ -19,7 +19,7 @@ import jakarta.servlet.http.HttpServletResponse;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
-
+	
 	@Bean
 	public SecurityFilterChain filterChain(HttpSecurity http) {
 		
