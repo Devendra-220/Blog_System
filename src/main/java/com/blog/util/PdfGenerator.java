@@ -39,9 +39,8 @@ public class PdfGenerator {
 
 		document.open();
 
-//		document.add(
-//		        new Paragraph("Most Active Users Report")
-//		);
+
+
 		
 		//TITLE
 		
